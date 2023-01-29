@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    
+</head>
+<body>
+    <form class="" action="index.html" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="Your name: " value="">
+        <input type="Submit" value="Submit">
+        <br>
+
+    <div class="emailBox">      
+       <label for="emailAddress">Your email address</label><br />
+    <input
+      id="emailAddress"
+      type="email"
+      name="Your Email"
+      size="20"
+      maxlength="64"
+      required
+      placeholder="someone@example"
+      title="Please provide your email address" />
+    </div> 
+      
+    <label for="phone">Enter your phone number:</label><br>
+      <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       placeholder="123-456-7890"
+       required>
+
+    <div class="messageBox">
+        <label for="message">Message</label><br />
+        <textarea
+          id="message"
+          cols="80"
+          rows="8"
+          required
+          placeholder="I am writing to ...."></textarea><br>
+          <input type="submit" value="Send Message" />
+        </div>
+
+      
+      
+      <br>
+
+    </form>
+</body>
+</html>
